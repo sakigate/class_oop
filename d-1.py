@@ -3,7 +3,6 @@ class Circle:
     def ___init__(self, area, perimeter):
         self.area = area
         self.perimeter = perimeter
-    
 
 
 # 半径1の円

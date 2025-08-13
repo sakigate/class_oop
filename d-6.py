@@ -1,12 +1,11 @@
-class MyCounterV3():
+class MyCounterV3:
     def __init__(self, value, step):
         self.value = value
         self.step = step
-    
+
     def count_up(self):
         self.value += self.step
         return self.value
-        
 
     def count_down(self):
         self.value -= self.step
