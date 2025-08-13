@@ -5,8 +5,6 @@ class Circle:
         self.perimeter = perimeter
     
 
-    
-
 
 # 半径1の円
 circle1 = Circle(radius=1)
