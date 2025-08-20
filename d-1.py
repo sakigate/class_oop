@@ -1,8 +1,16 @@
+import math
+
+
 class Circle:
     # コンストラクタ（初期化メソッド）
-    def ___init__(self, area, perimeter):
-        self.area = area
-        self.perimeter = perimeter
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return round(math.pi * (self.radius**2), 2)
+
+    def perimeter(self):
+        return round(2 * math.pi * self.radius, 2)
 
 
 # 半径1の円
